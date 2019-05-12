@@ -1,9 +1,5 @@
 def square_array(array)
-  array.map do |element|
-    element**2
-    retuen array
-  end
-
+  array.map { |n| n ** 2 } 
 end
 array = [1,2,3]
 square_array(array)
