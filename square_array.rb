@@ -1,6 +1,7 @@
 def square_array(array)
   array.map do |element|
-    new_item =  element**2
+    element**2
+    retuen array
   end
 
 end
